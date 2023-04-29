@@ -1,0 +1,140 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "SDL-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-SDL-build-Debug-67d1164e252e9b2001c3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Assignment_6",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SDL2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Assignment_6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Assignment_6-Debug-786c00824bede66d416c.json",
+					"name" : "Assignment_6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RasterViewer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RasterViewer-Debug-4edabc56d8951dd4878a.json",
+					"name" : "RasterViewer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL2::@2bd7167a0623071b9c0f",
+					"jsonFile" : "target-SDL2-Debug-79c94a5ff537b7d59963.json",
+					"name" : "SDL2",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL2-static::@2bd7167a0623071b9c0f",
+					"jsonFile" : "target-SDL2-static-Debug-340244e6613dda2e6f9b.json",
+					"name" : "SDL2-static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL2main::@2bd7167a0623071b9c0f",
+					"jsonFile" : "target-SDL2main-Debug-328dc490544843d73955.json",
+					"name" : "SDL2main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@2bd7167a0623071b9c0f",
+					"jsonFile" : "target-uninstall-Debug-d7176479ee876f13b493.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/ccccqqqq/Desktop/cglab6/cg/Assignment_6/cmake-build-debug",
+		"source" : "/Users/ccccqqqq/Desktop/cglab6/cg/Assignment_6"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

@@ -1,0 +1,293 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2131,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2149,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2154,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2169,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2183,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2187,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2194,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2197,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2199,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"SDL-build/libSDL2d.a"
+			],
+			"targetId" : "SDL2-static::@2bd7167a0623071b9c0f",
+			"targetIndex" : 3,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"SDL-build/libSDL2-2.0d.dylib"
+			],
+			"targetId" : "SDL2::@2bd7167a0623071b9c0f",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"SDL-build/libSDL2maind.a"
+			],
+			"targetId" : "SDL2main::@2bd7167a0623071b9c0f",
+			"targetIndex" : 4,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/SDL2",
+			"exportName" : "SDL2Targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "SDL2-static::@2bd7167a0623071b9c0f",
+					"index" : 3
+				},
+				{
+					"id" : "SDL2::@2bd7167a0623071b9c0f",
+					"index" : 2
+				},
+				{
+					"id" : "SDL2main::@2bd7167a0623071b9c0f",
+					"index" : 4
+				}
+			],
+			"paths" : 
+			[
+				"SDL-build/CMakeFiles/Export/f084604df1a27ef5b4fef7c7544737d1/SDL2Targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Devel",
+			"destination" : "lib/cmake/SDL2",
+			"paths" : 
+			[
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/SDL2Config.cmake",
+				"cmake-build-debug/SDL2ConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include/SDL2",
+			"paths" : 
+			[
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_assert.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_atomic.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_audio.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_bits.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_blendmode.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_clipboard.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_config_android.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_config_iphoneos.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_config_macosx.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_config_minimal.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_config_os2.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_config_pandora.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_config_psp.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_config_windows.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_config_winrt.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_config_wiz.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_copying.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_cpuinfo.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_egl.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_endian.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_error.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_events.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_filesystem.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_gamecontroller.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_gesture.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_haptic.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_hints.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_joystick.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_keyboard.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_keycode.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_loadso.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_log.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_main.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_messagebox.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_metal.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_mouse.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_mutex.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_name.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_opengl.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_opengl_glext.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_opengles.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_opengles2.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_opengles2_gl2.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_opengles2_gl2ext.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_opengles2_gl2platform.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_opengles2_khrplatform.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_pixels.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_platform.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_power.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_quit.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_rect.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_render.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_revision.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_rwops.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_scancode.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_sensor.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_shape.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_stdinc.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_surface.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_system.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_syswm.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_test.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_test_assert.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_test_common.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_test_compare.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_test_crc32.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_test_font.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_test_fuzzer.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_test_harness.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_test_images.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_test_log.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_test_md5.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_test_memory.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_test_random.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_thread.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_timer.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_touch.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_types.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_version.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_video.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/SDL_vulkan.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/begin_code.h",
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/include/close_code.h",
+				"cmake-build-debug/SDL-build/include/SDL_config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"type" : "code"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"cmake-build-debug/SDL-build/libSDL2d.dylib"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"cmake-build-debug/SDL-build/sdl2.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"cmake-build-debug/SDL-build/sdl2-config"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "/usr/local/share/aclocal",
+			"paths" : 
+			[
+				"/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL/sdl2.m4"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "SDL-build",
+		"source" : "/Users/ccccqqqq/Desktop/cglab6/cg/ext/SDL"
+	}
+}
